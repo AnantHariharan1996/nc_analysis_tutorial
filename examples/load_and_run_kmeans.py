@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 filename = "../nc_analysis/sample_data/DBRD-NATURE2020-depth.r0.1.nc"
 ds = Dataset(filename)
-model, x1, x2 = ds.kmeans('dvs', 'lQ', 4)
+x1, x2, model = ds.kmeans('dvs', 'lQ', 4)
 
 print("cluster centers:")
 print(model.cluster_centers_)
