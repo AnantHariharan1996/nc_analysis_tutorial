@@ -16,3 +16,5 @@ plt.ylabel('lQ')
 plt.ylim(0, 8)
 plt.title('cluster classification')
 plt.show()
+
+print("finished")
