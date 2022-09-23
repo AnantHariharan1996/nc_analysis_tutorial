@@ -15,3 +15,5 @@ plt.xlabel('dvs')
 plt.ylabel('lQ')
 plt.title('cluster classification')
 plt.show()
+
+print("finished")
